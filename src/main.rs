@@ -25,6 +25,9 @@ mod s0020_valid_parentheses;
 // #[path="../editor/cn/s0019_remove_nth_node_from_end_of_list.rs"]
 // mod s0019_remove_nth_node_from_end_of_list;
 
+#[path="../editor/cn/s0021_merge_two_sorted_lists.rs"]
+mod s0021_merge_two_sorted_lists;
+
 
 fn main() {
     println!("Hello, world!");
