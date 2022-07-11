@@ -22,8 +22,8 @@ mod s0015_3sum;
 #[path="../editor/cn/s0020_valid_parentheses.rs"]
 mod s0020_valid_parentheses;
 
-#[path="../editor/cn/s0017_letter_combinations_of_a_phone_number.rs"]
-mod s0017_letter_combinations_of_a_phone_number;
+// #[path="../editor/cn/s0019_remove_nth_node_from_end_of_list.rs"]
+// mod s0019_remove_nth_node_from_end_of_list;
 
 
 fn main() {
