@@ -1,3 +1,5 @@
+// 链表题因为未定义ListNode，本地测试的时候会报错，因此先注释掉，但是下面所有题是已经提交过的
+
 #[path="../editor/cn/s0001_two_sum.rs"]
 mod s0001_two_sum;
 
@@ -30,6 +32,9 @@ mod s0020_valid_parentheses;
 
 #[path="../editor/cn/s0022_generate_parentheses.rs"]
 mod s0022_generate_parentheses;
+
+// #[path="../editor/cn/s0024_swap_nodes_in_pairs.rs"]
+// mod s0024_swap_nodes_in_pairs;
 
 
 fn main() {
