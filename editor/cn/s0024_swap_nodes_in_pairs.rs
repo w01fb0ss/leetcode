@@ -17,6 +17,7 @@ struct Solution;
 //     }
 //   }
 // }
+// 两两交换链表中的节点
 impl Solution {
     pub fn swap_pairs(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         if head.is_none() || head.as_ref().unwrap().next.is_none() {

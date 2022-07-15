@@ -9,6 +9,9 @@ mod s0001_two_sum;
 #[path="../editor/cn/s0003_longest_substring_without_repeating_characters.rs"]
 mod s0003_longest_substring_without_repeating_characters;
 
+#[path="../editor/cn/s0004_median_of_two_sorted_arrays.rs"]
+mod s0004_median_of_two_sorted_arrays;
+
 #[path="../editor/cn/s0009_palindrome_number.rs"]
 mod s0009_palindrome_number;
 
@@ -47,6 +50,11 @@ mod s0026_remove_duplicates_from_sorted_array;
 
 #[path="../editor/cn/s0160_intersection_of_two_linked_lists.rs"]
 mod s0160_intersection_of_two_linked_lists;
+
+#[path="../editor/cn/s面试题 02.06_palindrome_linked_list_lcci.rs"]
+mod s02_06_palindrome_linked_list_lcci;
+
+
 mod common;
 pub use common::*;
 
