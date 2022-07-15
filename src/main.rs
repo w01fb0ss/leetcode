@@ -47,6 +47,8 @@ mod s0026_remove_duplicates_from_sorted_array;
 
 #[path="../editor/cn/s0160_intersection_of_two_linked_lists.rs"]
 mod s0160_intersection_of_two_linked_lists;
+mod common;
+pub use common::*;
 
 
 fn main() {
