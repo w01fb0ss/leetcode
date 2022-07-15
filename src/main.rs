@@ -30,11 +30,23 @@ mod s0020_valid_parentheses;
 // #[path="../editor/cn/s0021_merge_two_sorted_lists.rs"]
 // mod s0021_merge_two_sorted_lists;
 
+
+
 #[path="../editor/cn/s0022_generate_parentheses.rs"]
 mod s0022_generate_parentheses;
 
 // #[path="../editor/cn/s0024_swap_nodes_in_pairs.rs"]
 // mod s0024_swap_nodes_in_pairs;
+
+
+// #[path="../editor/cn/s0025_reverse_nodes_in_k_group.rs"]
+// mod s0025_reverse_nodes_in_k_group;
+
+#[path="../editor/cn/s0026_remove_duplicates_from_sorted_array.rs"]
+mod s0026_remove_duplicates_from_sorted_array;
+
+#[path="../editor/cn/s0160_intersection_of_two_linked_lists.rs"]
+mod s0160_intersection_of_two_linked_lists;
 
 
 fn main() {

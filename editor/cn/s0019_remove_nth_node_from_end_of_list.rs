@@ -1,3 +1,5 @@
+use std::io::Read;
+
 struct Solution;
 
 //leetcode submit region begin(Prohibit modification and deletion)
@@ -47,7 +49,7 @@ impl Solution {
             fast = fast.unwrap().next;
             slow = &mut slow.as_mut().unwrap().next;
         }
-        slow.as_mut().unwrap().next = slow.as_mut().unwrap().next.as_mut().unwrap().next.clone();
+        slow.as_mut().unwrap().next = slow.as_mut().unwrap().next.as_mut().unwrap().next.take();
         ret.unwrap().next
     }
 }
